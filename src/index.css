@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(241, 246, 250);
+}
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(174, 233, 243);
+  margin: 5px;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  height: 100px;
+}
+.header h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.chef-logo {
+  width: 100px;
+  height: 95px;
+}
+.ingridientform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh 0 5vh 0;
+  gap: 15px;
+}
+.ingridientform input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(174, 233, 243);
+  border-radius: 5px;
+  padding: 5px;
+}
+.ingridientform button {
+  width: 150px;
+  height: 30px;
+  border: 1px solid rgb(174, 233, 243);
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  position: relative;
+}
+.ingridientform button:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+.ingridientform button:active {
+  background-color: rgb(0, 0, 0);
+  transform: translateY(2px);
+}
+
+.listOfIngridients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.listOfIngridients ul {
+  padding: 0 330px 0 0;
+}
+.listOfIngridients h2 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+.listOfIngridients ul li {
+  margin: 10px 0;
+}
+.noingredient {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 10px;
+}
+.actionSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 50px 0;
+}
+.actionSection h2 {
+  font-size: 1.2rem;
+  margin-top: -10px;
+}
+.actionSection p {
+  font-size: .8rem;
+}
+.actionSection button {
+  width: 100px;
+  height: 40px;
+  padding: 3px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(241, 91, 91);
+  color: white;
+  margin-left: 10px;
+}
+.actionSection button:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+.actionSection button:active {
+  transform: translateY(2px);
+}
+
+.notfouryet, .notfouryet p {
+  margin: 30px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(241, 159, 159);
+}
+
+.response {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  line-height: 1.6;
+}
+.response h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.response ul li{
+  margin: 20px 0;
+}
+.response section {
+  width: 600px;
+}
+.lastemoji{
+  text-align: center;
+  margin: 10px;
+}
+.gif{
+  border-radius: 50%;
+  pointer-events: none;
+  margin: 30px;
+}
+.cooking{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
